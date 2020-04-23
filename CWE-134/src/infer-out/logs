@@ -1,0 +1,73 @@
+[21008][environment] CWD = /home/panva/gitrepos/C-C-_CWE/Ctests/CWE-134/src
+[21008][environment] No .inferconfig file found
+[21008][environment] Project root = /home/panva/gitrepos/C-C-_CWE/Ctests/CWE-134/src
+[21008][environment] INFER_ARGS =   @/tmp/args.tmp.075dda  ++Contents of '/tmp/args.tmp.075dda':
+[21008][environment]                                         --bufferoverrun
+[21008][environment]                                       
+[21008][environment] command line arguments:   infer --bufferoverrun -- make clean allActive checkers: biabduction (C/C++/ObjC, Java), buffer overrun analysis (C/C++/ObjC, Java), buffer overrun checker (C/C++/ObjC, Java), fragment retains view (Java), inefficient keyset iterator (Java), liveness (C/C++/ObjC), RacerD (C/C++/ObjC, Java), SIOF (C/C++/ObjC), uninitialized variables (C/C++/ObjC), Starvation analysis (C/C++/ObjC, Java)
+[21008][environment] Infer log identifier is 
+Infer version v0.17.0
+[21008][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[21008][environment] 
+[21008][   progress] Capturing in make/cc mode...
+[21008][environment] Running command make with env:
+[21008][environment] (Extend((PATH /opt/infer-linux64-v0.17.0/lib/infer/infer/bin/../lib/wrappers:/home/panva/.opam/ocaml-variants.4.07.1+flambda/bin:/home/panva/.local/share/umake/bin:/home/panva/.local/bin:/usr/bin/home/panva/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin)(INFER_OLD_PATH /home/panva/.opam/ocaml-variants.4.07.1+flambda/bin:/home/panva/.local/share/umake/bin:/home/panva/.local/bin:/usr/bin/home/panva/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin)))
+[21008][environment] 
+
+[21014][environment] CWD = /home/panva/gitrepos/C-C-_CWE/Ctests/CWE-134/src
+[21014][environment] No .inferconfig file found
+[21014][environment] Project root = /home/panva/gitrepos/C-C-_CWE/Ctests/CWE-134/src
+[21014][environment] INFER_ARGS =   @/tmp/args.tmp.410bd6  ++Contents of '/tmp/args.tmp.410bd6':
+[21014][environment]                                         @/tmp/args.tmp.075dda -o test1.o
+[21014][environment]                                         test1.c
+[21014][environment]                                         ++Contents of '/tmp/args.tmp.075dda':
+[21014][environment]                                           --bufferoverrun
+[21014][environment]                                         
+[21014][environment]                                       
+[21014][environment] command line arguments:   gcc -o test1.o test1.cActive checkers: biabduction (C/C++/ObjC, Java), buffer overrun analysis (C/C++/ObjC, Java), buffer overrun checker (C/C++/ObjC, Java), fragment retains view (Java), inefficient keyset iterator (Java), liveness (C/C++/ObjC), RacerD (C/C++/ObjC, Java), SIOF (C/C++/ObjC), uninitialized variables (C/C++/ObjC), Starvation analysis (C/C++/ObjC, Java)
+[21014][      debug] 
+[21014][      debug] *** Beginning capture of file /home/panva/gitrepos/C-C-_CWE/Ctests/CWE-134/src/test1.c ***
+[21014][      debug] Clang frontend action is translating and linting
+[21014][      debug] Loading the following linters files: /opt/infer-linux64-v0.17.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[21014][      debug] Elapsed: 34ms.
+[21014][      debug] 
+[21014][environment] Infer log identifier is 
+
+[21023][environment] CWD = /home/panva/gitrepos/C-C-_CWE/Ctests/CWE-134/src
+[21023][environment] No .inferconfig file found
+[21023][environment] Project root = /home/panva/gitrepos/C-C-_CWE/Ctests/CWE-134/src
+[21023][environment] INFER_ARGS =   @/tmp/args.tmp.bf0baa  ++Contents of '/tmp/args.tmp.bf0baa':
+[21023][environment]                                         @/tmp/args.tmp.075dda -o test2.o
+[21023][environment]                                         test2.c
+[21023][environment]                                         ++Contents of '/tmp/args.tmp.075dda':
+[21023][environment]                                           --bufferoverrun
+[21023][environment]                                         
+[21023][environment]                                       
+[21023][environment] command line arguments:   gcc -o test2.o test2.cActive checkers: biabduction (C/C++/ObjC, Java), buffer overrun analysis (C/C++/ObjC, Java), buffer overrun checker (C/C++/ObjC, Java), fragment retains view (Java), inefficient keyset iterator (Java), liveness (C/C++/ObjC), RacerD (C/C++/ObjC, Java), SIOF (C/C++/ObjC), uninitialized variables (C/C++/ObjC), Starvation analysis (C/C++/ObjC, Java)
+[21023][      debug] 
+[21023][      debug] *** Beginning capture of file /home/panva/gitrepos/C-C-_CWE/Ctests/CWE-134/src/test2.c ***
+[21023][      debug] Clang frontend action is translating and linting
+[21023][      debug] Loading the following linters files: /opt/infer-linux64-v0.17.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[21023][      debug] Elapsed: 41.778ms.
+[21023][      debug] 
+[21023][environment] Infer log identifier is 
+[21008][   progress] Found 2 source files to analyze in /home/panva/gitrepos/C-C-_CWE/Ctests/CWE-134/src/infer-out
+[21008][environment] Parallel jobs: 8
+[21032][   progress] test2.c starting
+[21033][   progress] test1.c starting
+[21032][   progress] test2.c DONE
+[21033][   progress] test1.c DONE
+[21008][   progress] 
+[21008][   progress] Analysis finished in 364mss
+[21008][      debug] collected stats:
+[21008][      debug] Backend stats:
+[21008][      debug]   summary_file_try_load= 24
+[21008][      debug]   summary_read_from_disk= 6
+[21008][      debug]   summary_cache_hits= 81 (87%)
+[21008][      debug]   summary_cache_misses= 12
+[21008][      debug]   summary_has_model_queries= 0
+[21008][      debug]   ondemand_procs_analyzed= 3
+[21008][      debug]   ondemand_local_cache_hits= 49 (84%)
+[21008][      debug]   ondemand_local_cache_misses= 9
+[21008][      debug]   
+[21008][      debug] 
